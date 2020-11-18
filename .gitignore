@@ -1,0 +1,15 @@
+.classpath
+.project
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.jdt.apt.core.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.m2e.core.prefs
+target/estudos-gerais-1.0-SNAPSHOT.jar
+target/classes/br/edu/brunno/geral/App.class
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+target/surefire-reports/br.edu.brunno.geral.AppTest.txt
+target/surefire-reports/TEST-br.edu.brunno.geral.AppTest.xml
+target/test-classes/br/edu/brunno/geral/AppTest.class
