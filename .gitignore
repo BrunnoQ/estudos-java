@@ -13,3 +13,4 @@ target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputF
 target/surefire-reports/br.edu.brunno.geral.AppTest.txt
 target/surefire-reports/TEST-br.edu.brunno.geral.AppTest.xml
 target/test-classes/br/edu/brunno/geral/AppTest.class
+target/classes/br/edu/brunno/geral/regex/TesteRegex.class
