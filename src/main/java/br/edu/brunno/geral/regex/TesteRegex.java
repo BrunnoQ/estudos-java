@@ -15,7 +15,7 @@ public class TesteRegex {
    public static void main(String[] args) {
         
         validarCPF("335.901.451-60");
-        validarEmail("brunno.silva@teste.com.br");
+        validarEmail("brunno_.silva@teste.com.br");
 
     }
 

@@ -14,3 +14,7 @@ target/surefire-reports/br.edu.brunno.geral.AppTest.txt
 target/surefire-reports/TEST-br.edu.brunno.geral.AppTest.xml
 target/test-classes/br/edu/brunno/geral/AppTest.class
 target/classes/br/edu/brunno/geral/regex/TesteRegex.class
+.factorypath
+target/classes/br/edu/brunno/geral/dao/PessoaDao.class
+target/classes/br/edu/brunno/geral/entidades/Pessoa.class
+target/classes/br/edu/brunno/geral/regex/PessoaRun.class
