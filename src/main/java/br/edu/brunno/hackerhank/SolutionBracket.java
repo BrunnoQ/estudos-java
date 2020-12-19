@@ -3,7 +3,7 @@ package br.edu.brunno.hackerhank;
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class SolutionBracket {
 
     static char openParenteses = '(';
     static char closedParenteses = ')';

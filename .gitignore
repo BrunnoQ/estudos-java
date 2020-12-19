@@ -20,3 +20,5 @@ target/classes/br/edu/brunno/geral/entidades/Pessoa.class
 target/classes/br/edu/brunno/geral/regex/PessoaRun.class
 target/classes/br/edu/brunno/geral/App$ShortestPath.class
 target/classes/br/edu/brunno/hackerhank/Solution.class
+target/classes/br/edu/brunno/hackerhank/SolutionBracket.class
+target/classes/br/edu/brunno/hackerhank/DijsktraImplement.class
