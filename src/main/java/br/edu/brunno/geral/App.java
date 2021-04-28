@@ -1,22 +1,26 @@
 package br.edu.brunno.geral;
 
+import java.util.PriorityQueue;
+import java.util.stream.Collectors;
+
 /**
  * Hello world!
  *
  */
 public class App {
     public static void main(String[] args) {
-        int graph[][] = new int[][] { { 0, 4, 0, 0, 0, 0, 0, 8, 0 }, 
-                                      { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
-                                      { 0, 8, 0, 7, 0, 4, 0, 0, 2 }, 
-                                      { 0, 0, 7, 0, 9, 14, 0, 0, 0 },
-                                      { 0, 0, 0, 9, 0, 10, 0, 0, 0 },
-                                      { 0, 0, 4, 14, 10, 0, 2, 0, 0 }, 
-                                      { 0, 0, 0, 0, 0, 2, 0, 1, 6 }, 
-                                      { 8, 11, 0, 0, 0, 0, 1, 0, 7 },
-                                      { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
+      
+        PriorityQueue<String> filaDoBanco = new PriorityQueue<String>();
 
-        int found = graph[1][2];
+        filaDoBanco.add("Brunno");
+        filaDoBanco.add("Renata");
+        filaDoBanco.add("Stephanie");
+        filaDoBanco.add("Amanda");
+        filaDoBanco.add("Amanda2");
+        filaDoBanco.add("Amanda3");
+
+        System.out.println(filaDoBanco.stream().collect(Collectors.toList()));
+
         
     }
 

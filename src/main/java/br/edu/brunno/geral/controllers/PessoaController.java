@@ -2,12 +2,15 @@ package br.edu.brunno.geral.controllers;
 
 import java.util.Optional;
 
-import javax.print.attribute.standard.RequestingUserName;
-
+import br.edu.brunno.anotacao.Anotacao;
 import br.edu.brunno.geral.dao.PessoaDao;
 import br.edu.brunno.geral.entidades.Pessoa;
 
+@Anotacao("OI")
 public class PessoaController {
+
+  @Anotacao("OI")
+  private String testeParaAnotacao;
 
   public static Optional<Pessoa> obterPessoa() {
 
