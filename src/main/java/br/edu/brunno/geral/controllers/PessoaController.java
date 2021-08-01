@@ -18,7 +18,6 @@ public class PessoaController {
     // lnça nullpointer
     Optional<Pessoa> pessoa = Optional.ofNullable(PessoaDao.obterPessoa());// Para elementos que podem ou não vir
                                                                            // preenchidos, volta vazio
-
     return pessoa;
 
   }
