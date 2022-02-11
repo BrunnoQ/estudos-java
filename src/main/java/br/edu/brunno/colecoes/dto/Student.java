@@ -4,24 +4,21 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
 import java.util.Objects;
 
-@Getter
 @Setter
+@Getter
 @AllArgsConstructor
-public class Course {
+public class Student {
 
     private String name;
-    private String instructor;
-    private List<LessonDTO> lessons;
+    private int numberRegistration;
 
     @Override
     public String toString() {
-        return "Course{" +
+        return "Student{" +
                 "name='" + name + '\'' +
-                ", instructor='" + instructor + '\'' +
-                ", lessons=" + lessons +
+                ", numberRegistration=" + numberRegistration +
                 '}';
     }
 
@@ -29,12 +26,12 @@ public class Course {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Course course = (Course) o;
-        return name.equals(course.name) && instructor.equals(course.instructor);
+        Student student = (Student) o;
+        return numberRegistration == student.numberRegistration && name.equals(student.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, instructor);
+        return Objects.hash(name, numberRegistration);
     }
 }
