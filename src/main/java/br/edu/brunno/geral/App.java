@@ -18,10 +18,7 @@ public class App {
         filaDoBanco.add("Amanda");
         filaDoBanco.add("Amanda2");
         filaDoBanco.add("Amanda3");
-
-        System.out.println(filaDoBanco.stream().collect(Collectors.toList()));
-
-        
+        System.out.println(filaDoBanco.stream().collect(Collectors.toList()));       
     }
 
 }
